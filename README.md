@@ -47,16 +47,13 @@ View sections below for more information relating to these steps.
 
 Because the ESP8266 runs on 3.3V logic, the data line from Pin 14 must be level-shifted to 5V in order for the NeoPixels to understand. The 74AHCT125 does this for us.
 
-Feel free to refer to the wiring images.
-
-| Images |  |  |
-|-|-|-|
 | ![Wiring Full View.JPG](Wiring%20-%20Full%20View.JPG) | ![Wiring - Adafruit Feather Huzzah ESP8266 close up.JPG](Wiring%20-%20Adafruit%20Feather%20Huzzah%20ESP8266%20close%20up.JPG) | ![Wiring - Level-Shifter (3V to 5V) Adafruit 74AHCT125 close up](Wiring%20-%20Level-Shifter%20(3V%20to%205V)%20Adafruit%2074AHCT125%20close%20up.JPG) |
+|-|-|-|
 | Full View | Adafruit Feather Huzzah ESP8266 close up | Level-Shifter (3V to 5V) Adafruit 74AHCT125 close up |
 
 ## Program
 
-I originally tried connecting the ESP8266 via Socket.io to my existing server, however, I had an issue compiling with the [SocketIoClient](https://github.com/timum-viw/socket.io-client) library. I gave up and decided to use Firebase ([Firebase-ESP8266](https://github.com/mobizt/Firebase-ESP8266)) to communicate with the ESP8266 in real-time.
+I originally tried connecting the ESP8266 via Socket.io to my existing server, however, I had an issue compiling with the [socket.io-client](https://github.com/timum-viw/socket.io-client) library. I gave up and decided to use Firebase ([Firebase-ESP8266](https://github.com/mobizt/Firebase-ESP8266)) to communicate with the ESP8266 in real-time.
 
 
 ### Firebase Settings
@@ -85,15 +82,15 @@ If you changed the pin connected to the data link of the NeoPixels, you will nee
 
 ## Additional Resources
 
-https://tttapa.github.io/ESP8266/Chap10%20-%20Simple%20Web%20Server.html
-https://cdn-shop.adafruit.com/product-files/1787/1787AHC125.pdf
-https://learn.adafruit.com/adafruit-feather-huzzah-esp8266/power-management
-https://cdn-learn.adafruit.com/assets/assets/000/046/249/original/adafruit_products_Huzzah_ESP8266_Pinout_v1.2-1.png?1504885873
-https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-installation
-https://learn.adafruit.com/neopixels-on-raspberry-pi/raspberry-pi-wiring
-https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html
-https://medium.com/@vibrologic/serverless-iots-with-firebase-realtime-database-and-esp8266-e624304c3197
-https://github.com/mobizt/Firebase-ESP8266
+- https://tttapa.github.io/ESP8266/Chap10%20-%20Simple%20Web%20Server.html
+- https://cdn-shop.adafruit.com/product-files/1787/1787AHC125.pdf
+- https://learn.adafruit.com/adafruit-feather-huzzah-esp8266/power-management
+- https://cdn-learn.adafruit.com/assets/assets/000/046/249/original/adafruit_products_Huzzah_ESP8266_Pinout_v1.2-1.png?1504885873
+- https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-installation
+- https://learn.adafruit.com/neopixels-on-raspberry-pi/raspberry-pi-wiring
+- https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html
+- https://medium.com/@vibrologic/serverless-iots-with-firebase-realtime-database-and-esp8266-e624304c3197
+- https://github.com/mobizt/Firebase-ESP8266
 
 --------------
 
