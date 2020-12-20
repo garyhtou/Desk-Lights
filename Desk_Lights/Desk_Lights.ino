@@ -1,7 +1,7 @@
 /*
    Desk Lights
    Created by Gary Tou
-	 https://github.com/garytou2/Desk-Lights
+	 https://github.com/garyhtou/Desk-Lights
 */
 #include <Adafruit_NeoPixel.h>
 #include <FirebaseESP8266.h>

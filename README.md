@@ -6,7 +6,7 @@ This README is more of a "how it works" and doesn't really serve as a great tuto
 
 This project started back in January 2019 with the goal of wirelessly controlling an individually addressable LED strip. After some faulty wiring that melted a breadboard and fried a test strip of LEDs... whoops!... I picked it back up in December 2020.
 
-_Check out the other repositoy for this project, [`garytou2/Desk-Lights-Website`](https://github.com/garytou2/Desk-Lights-Website), which expands upon this project by connecting a website to firebase; allowing anyone on the interset the control the color of the LEDs!_
+_Check out the other repositoy for this project, [`garyhtou/Desk-Lights-Website`](https://github.com/garyhtou/Desk-Lights-Website), which expands upon this project by connecting a website to firebase; allowing anyone on the interset the control the color of the LEDs!_
 
 ## Get Started
 
@@ -98,6 +98,6 @@ If you changed the pin connected to the data link of the NeoPixels, you will nee
 
 There are so many ways to expand this project. For example:
 
-- Create a website with a color picker that updates the values in Firebase. Now anyone on the internet can change the colors of the LEDS! **Check out [`garytou2/Desk-Lights-Website`](https://github.com/garytou2/Desk-Lights-Website)**
+- Create a website with a color picker that updates the values in Firebase. Now anyone on the internet can change the colors of the LEDS! **Check out [`garyhtou/Desk-Lights-Website`](https://github.com/garyhtou/Desk-Lights-Website)**
 - Instead of updating the color of all the LEDs at once, you an trickle the new color down the line.
 - Implement an on/off switch (either physical or virtual). You could run a webserver on the ESP8266 with a website that allows anyone on the network to turn it on/off. Or, simpily store a boolean for on/off on Firebase.
